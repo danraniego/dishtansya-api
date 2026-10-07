@@ -1,0 +1,24 @@
+# macOS system file
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+/.env.*
+!.env.example
+
+# Build and temporary files
+dist/
+build/
+tmp/
+coverage/
+*.log
+
+# Generated sequelize-cli config
+src/database/migration.config.json
+
+# Storage artifacts
+storage/logs/*
+!storage/logs/.gitkeep
